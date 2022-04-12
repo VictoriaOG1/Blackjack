@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="button1" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyecto3.proyecto3.BlackjackServerController">
+   <children>
+      <Label layoutX="20.0" layoutY="14.0" text="Server">
+         <font>
+            <Font name="Comic Sans MS" size="30.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="serverText" layoutX="20.0" layoutY="73.0" prefHeight="400.0" prefWidth="460.0">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font></TextArea>
+   </children>
+</AnchorPane>
